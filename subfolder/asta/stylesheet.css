@@ -1,0 +1,265 @@
+body {
+    background-color: whitesmoke;
+    width: 100%;
+    margin: auto;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+
+    
+}
+
+
+nav li {
+    text-align: right;
+    padding-right: 1.5em;
+    font-size: 25px;
+    list-style: none;
+    text-align: center;
+    
+}
+
+#navigation-desktop {
+    display: none;
+}
+
+a {
+    color: rosybrown;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.asta  {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+.tekstbox {
+    
+    
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #82777f;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #82777f;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tekst2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #82777f;
+    line-height: 1.5;
+}
+
+.box2 {
+    background-color: whitesmoke;
+    text-align: justify;
+    font-family: 'ariel', sans-serif;
+    font-size: 25px;
+    color: #82777f;
+    line-height: 1.5;
+  
+    
+   
+}
+
+
+.asta4 {
+    width: 40%;
+   
+}
+
+.instagram {
+    width: 100%;
+
+}
+
+.box1 {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #82777f;
+
+   
+   
+}
+
+div.gallery {
+    border: 0px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}s
+
+.instagram {
+     text-align: right;
+    max-width: 50%;
+    
+}
+
+a,p,li {
+    font-family: 'Roboto', sans-serif;
+}
+
+*/
+
+ul {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 400px) {
+
+    #navigation-icon { display: block;
+    }
+    
+    .asta5 {
+    width: 45%;
+    float: left;
+    padding: 2%;
+}
+   
+    .box2 {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #82777f;
+    padding: 2%;
+
+    
+   
+}
+    
+    .box1 {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #82777f;
+    padding: 2%;
+   
+   
+}
+    
+    #navigation-mobile li { padding: 0.8em; border-bottom: 1px solid #ccc;} }
+
+@media only screen and (max-width: 400px) {
+     .box2 {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #82777f;
+    padding: 2%;
+         clear: both;
+
+    
+   
+}
+    
+    .box1 {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #82777f;
+    padding: 2%;
+   clear: both;
+   
+}
+     .asta5 {
+    width: 100%;
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+}
+}
+
+@media only screen and (min-width: 650px) {
+
+ .asta5 {
+    width: 45%;
+
+}
+    
+
+    #navigation-icon { display: none;}
+    #navigation-desktop { display: block; text-align: center;}
+    #navigation-desktop li { display: inline; }
+#navigation-icon { font-size: 1.4em; padding: 2%; text-align: right; background-color: whitesmoke;}
+
+nav a { text-decoration: none;
+padding: 4px;}
+
+#navigation-mobile { 
+text-align: center; 
+font-size: 1.2em;
+    display: none;
+    
+}
+
+    #navigation-mobile li { padding: 0.8em; border-bottom: 1px solid #ccc;} }
+
+
+/* 480px-600px ---------------------------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 600px) { #header { background-color:#FF6; }
+} /* gul */
