@@ -1,0 +1,234 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+body {
+  font: 12px/18px Arial, sans-serif;
+  background-color: #ccc;
+}
+
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+body {
+  background-color: #ccc;
+  font-family: verdana, sans-serif;
+  font-size: 12px;
+}
+
+header,
+footer,
+main {
+  padding: 2%;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-family: 'Rammetto One', cursive;
+}
+
+h2 {
+  background-color: aquamarine;
+  color: crimson;
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 0.8em;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+  height: auto;
+  background: yellow;
+}
+
+/*
+nav {
+  background-color: red;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  padding-right: 17px;
+}
+
+nav ul {
+  padding: 3px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+*/
+
+ul {
+  list-style-type: none;
+}
+
+#navigation-desktop {
+  display: none;
+}
+
+#navigation-icon {
+  font-size: 1.4em;
+  padding: 2%;
+  text-align: right;
+  background-color: yellow;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: white;
+  padding: 4px;
+  color: black;
+}
+
+#navigation-mobile {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#navigation-mobile li {
+  padding: 0.8em;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {
+  background-color: hsla(198, 57%, 80%, 0.6);
+}
+
+#image {
+  background-color: blue;
+  width: 98%;
+  padding: 1%;
+}
+
+#text {
+  background-color: green;
+  width: 98%;
+  padding: 1%;
+
+}
+
+#image img {
+  width: 100%;
+
+}
+
+footer {}
+
+.clearfix {
+  /* overflow: auto;*/
+}
+
+#flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+  height: auto;
+  background: orange;
+  clear: both;
+}
+
+@media only screen and (min-width: 400px) {
+  header {
+    background-color: purple;
+  }
+  #image img {
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+
+  }
+  #image {
+    overflow: auto;
+  }
+
+  #navigation-desktop {
+    display: block;
+    text-align: center;
+  }
+  #navigation-desktop li {
+    display: inline;
+    font-size: 1.3em;
+    margin: 0.3em;
+  }
+  #navigation-desktop li a {
+    padding: 0.3em;
+  }
+  #navigation-icon {
+    display: none;
+  }
+  #navigation-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  header {
+    background-color: pink;
+  }
+  #image {
+    width: 48%;
+    float: left;
+  }
+  #text {
+    width: 48%;
+    float: left;
+  }
+  article {
+    overflow: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #navigation-desktop {
+    text-align: right;
+  }
+  #navigation-desktop li {
+    font-size: 1em;
+    margin: 0.3em;
+  }
+  #navigation-desktop li a {
+    padding: 0em;
+    background-color: pink;
+  }
+  #navigation-desktop li a:hover {
+    text-decoration: underline;
+  }
+
+}
