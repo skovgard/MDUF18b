@@ -1,0 +1,443 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px "Microsoft YaHei Light", sans-serif;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Megrim', cursive;
+    font-weight: bold;
+    font-size: 2.6em;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Pavanam', sans-serif;
+    ;
+    font-size: 1.7em;
+
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+h3 {
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+.header {
+    height: auto;
+}
+
+nav {
+    background-color: black;
+    text-align: right;
+
+}
+
+#navigation-desktop {
+    display: inline;
+    padding-right: 18px;
+}
+
+#navigation-mobile {
+    padding-right: 7px;
+}
+
+nav ul {
+    padding: 3px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+
+#navigation-desktop {
+    display: none;
+}
+
+#navigation-icon {
+    font-size: 1.4em;
+    padding: 2%;
+    text-align: right;
+    background-color: white;
+    text-decoration: none;
+}
+
+#navigation-icon a {
+    color: black;
+    text-decoration: none;
+}
+
+#navigation-mobile {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#navigation-mobile li {
+    padding: 0.8em;
+    border-bottom: 0px solid #ccc;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+.content {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+.midt {
+    text-align: center;
+}
+
+.film {
+    width: 98%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+
+#idabillede {
+    width: 98%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+#fakta {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+ul {
+    list-style-type: circle;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#cv2 {
+    width: 98%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.cv {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/cv.jpeg)
+}
+
+#kontakt {
+    background-color: #989898;
+    height: auto;
+    text-align: center;
+}
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.footer {
+    height: auto;
+    background: black;
+    color: white;
+    text-align: center;
+    clear: both;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+address {
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (min-width: 400px) {
+    header {}
+
+    #navigation-desktop {
+        display: block;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0);
+        width: 95%;
+        position: absolute;
+        bottom: 0;
+    }
+    #navigation-desktop li {
+        display: inline;
+        font-size: 1.3em;
+        margin: 0.2em;
+    }
+    #navigation-desktop li a {
+        padding: 0.3em;
+        color: black;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    #navigation-icon {
+        display: none;
+    }
+    #navigation-mobile {
+        display: none;
+    }
+
+    .filmdata {
+        margin: 4px;
+    }
+
+    .info14 {
+        float: left;
+        width: 44%;
+        padding: 2%;
+    }
+
+    .marieinfo {
+        float: left;
+        width: 44%;
+        padding: 2%;
+    }
+
+    .frokosteninfo {
+        float: left;
+        width: 44%;
+        padding: 2%;
+    }
+
+    .irlinfo {
+        float: left;
+        width: 44%;
+        padding: 2%;
+    }
+
+
+    .header {
+        height: 120px;
+        background-size: cover;
+        width: 100%;
+        background-image: url(../images/header1.jpeg);
+        position: relative;
+    }
+
+    .cv {
+        background-image: none;
+    }
+
+    #idabillede {
+        float: left;
+        width: 44%;
+    }
+
+    #fakta {
+        float: left;
+        width: 44%;
+        background-color: #183924;
+        color: white;
+        border-radius: 10px;
+        padding: 2%;
+    }
+
+    #faktaoverskrift {
+        text-align: center;
+    }
+
+    #privat {
+        float: right;
+        ;
+        width: 98%;
+        margin: 1%;
+    }
+
+
+    #cv2 {
+        width: 50%;
+        align-content: center;
+        padding-right: 25%;
+        padding-left: 25%;
+    }
+
+    #uddannelse {
+        float: left;
+        width: 48%;
+        padding: 1%;
+    }
+
+    #erhverv {
+        float: left;
+        width: 48%;
+        padding: 1%;
+    }
+
+    #rejser {
+        float: left;
+        width: 98%;
+        padding: 1%;
+    }
+
+
+    @media only screen and (min-width: 768px) {
+
+        .header {
+            height: 160px;
+        }
+
+        #navigation-desktop li {
+            font-size: 1.4em;
+            margin: 1.3em;
+        }
+        #navigation-desktop li a {
+            padding: 0.5em;
+
+        }
+        #navigation-desktop li a:hover {
+            text-decoration: overline;
+        }
+
+        .filmdata {
+            margin: 4px;
+        }
+
+
+        .info14 {
+            float: left;
+            width: 21%;
+            padding: 2%;
+        }
+
+        .marieinfo {
+            float: left;
+            width: 21%;
+            padding: 2%;
+        }
+
+        .frokosteninfo {
+            float: left;
+            width: 21%;
+            padding: 2%;
+        }
+
+        .irlinfo {
+            float: left;
+            width: 21%;
+            padding: 2%;
+        }
+
+        #idabillede {
+            float: left;
+            width: 30.3%;
+            padding: 1%;
+        }
+
+        #fakta {
+            float: left;
+            width: 30.3%;
+            padding: 1%;
+            background-color: #fff;
+            color: black;
+        }
+
+        #faktaoverskrift {
+            text-align: left;
+        }
+
+        #privat {
+            float: left;
+            width: 30.3%;
+        }
+
+
+        #cv2 {
+            width: 40%;
+            padding-bottom: 0px;
+            padding-right: 30%;
+            padding-left: 30%;
+        }
+
+        #uddannelse {
+            float: left;
+            width: 30%;
+            padding: 1%;
+        }
+
+        #erhverv {
+            float: left;
+            width: 30%;
+            padding: 1%;
+        }
+
+        #rejser {
+            float: left;
+            width: 30%;
+            padding: 1%; }
+    }
+}
