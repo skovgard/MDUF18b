@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* mobile stylesheet */
+header, article, nav, aside, footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    text-align: center
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+nav li {
+    display: inline;
+    padding-right: 1.2em;
+}
+
+#portrait {
+    width: 90%;
+    height: 100%;
+    
+}
+img {
+    width: 20%;
+    height: 20%;
+}
+
+header {
+    height: 100px;
+}
+
+article {
+    height: 400px;
+}
+nav {
+    height: 50px;
+}
+footer {
+    height: 100px;
+}
+.tablet, .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+/* tablet stylesheet */
+
+@media screen and (min-width: 480px){
+    #nav-bar {
+        text-align: right;
+        
+    }
+    .tablet {
+        display: block;
+    }
+    .mobile, desktop {
+        display: none;
+
+}
+    #portrait {
+        width: 70%;
+        height: 100%
+    }
+    article {
+    width: 50%;
+        float: left;
+    }
+    
+    footer {
+        clear: both;
+    }
+}
+
+/* desktop stylesheet */
+@media screen and (min-width: 960px){
+    
+    aside, .desktop {
+        width: 30%;
+        background-color: blue;
+        height: 805px;
+        float: left;
+    }   
+    
+    .desktop, tablet {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+    section {
+        width: 70%;
+        float: left;
+    }
+    
+    article {
+        display: block;
+        clear: both;
+        width: 100%;
+    }
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+    #portrait {
+        width: 60%;
+        height: 100%
+    }
+   
+}
+
+
+

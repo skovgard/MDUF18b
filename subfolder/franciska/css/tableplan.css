@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    background-color: white;
+    max-width: 1000px;
+
+}
+
+body {
+    background-color: white;
+    font-family: calibri;
+    font-size: 12px
+}
+
+header {
+    background-color: cornflowerblue;
+}
+
+footer {
+    background-color: white;
+}
+
+main {
+    background-color: white
+}
+
+header,
+footer,
+main {
+    padding: 2%;
+}
+
+
+h1 {
+    background-color: darkslategrey;
+    color: beige;
+    font-size: 3em;
+    width: 94%;
+    margin: 1%;
+}
+
+h2 {
+    background-color: powderblue;
+    color: black;
+    font-size: 1.5em;
+    font-size: 1.5em
+}
+
+p {
+    margin: 1%;
+    font-size: 1.5em;
+
+}
+
+nav {
+    background-color: cornflowerblue;
+    text-align: center; 
+}
+
+nav li {
+    display: block;
+    border: 1px solid black;
+    border-right: 1px solid black;
+    float: left;
+    text-align: center; 
+    padding: 14px 16px;
+
+}
+
+nav ul {
+    padding: 3px;
+    font-size: 1.5em;
+    overflow: hidden;
+
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+#bordA {
+    background-color: green;
+    width: 30%;
+    float: left;
+    padding: 1%;
+    padding-bottom: 2.7%;
+    margin: 1%
+}
+
+
+#bordB {
+    background-color: dodgerblue;
+    width: 30%;
+    float: left;
+    padding: 1%;
+    margin: 1%
+}
+
+#bordC {
+    background-color: gold;
+    width: 30%;
+    float: left;
+    padding: 1%;
+    margin: 1%
+}
+
+#bordD {
+    background-color: orange;
+    width: 30%;
+    float: left;
+    padding: 1%;
+    margin: 1%
+}
+
+#bordE {
+    background-color: red;
+    width: 30%;
+    float: left;
+    padding: 1%;
+    margin: 1%
+}
+
+#bordF {
+    background-color: black;
+    width: 30%;
+    float: left;
+    padding: 1%;
+    color: white;
+    margin: 1%
+}
+
+#wrapper {
+    display: flex;
+    width: 100%;
+}
+
+footer {
+    clear: both;
+}
+
+.clearfix {
+    overflow: auto
+}
+
+nav li:hover {
+    background-color: darkblue
+}
+a:hover {color: white}
