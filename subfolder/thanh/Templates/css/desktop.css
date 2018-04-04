@@ -1,0 +1,32 @@
+@media screen and (min-width: 960px){
+    
+    aside {
+        width: 30%;
+        background-color: blue;
+        height: 805px;
+        float: left;
+    }   
+    
+    .desktop {
+        display: block;
+    }
+    
+    section {
+        width: 70%;
+        float: left;
+    }
+    
+    article {
+        display: block;
+        clear: both;
+        width: 100%;
+    }
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+}
+
+
+

@@ -1,0 +1,67 @@
+body {
+    background-color: whitesmoke;
+    width: 100%;
+
+}
+
+h1 {
+    font-family: monospace;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+    
+}
+nav li {
+    text-align: right;
+    display: inline;
+    padding-right: 1.2em;
+    font-size: 30px;
+    
+    
+    
+}
+
+a {
+    color: rosybrown;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.asta  {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: whitesmoke;
+    padding: 1rem;
+    text-align: center;
+    
+    
+}
+
+.box1 {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 1rem;
+    height: 1rem;
+    width: 100%;
+}
+a,p,li {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* 480px-600px ---------------------------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 600px) { #header { background-color:#FF6; }
+} /* gul */
