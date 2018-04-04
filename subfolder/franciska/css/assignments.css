@@ -1,0 +1,80 @@
+{
+       margin: 0;
+       padding: 0;
+   }
+
+   body {
+       font-family: Arial;
+
+       background-image: url(shattered-island.gif);
+   }
+
+   /**navigationslisten**/
+
+   .topnav {
+       overflow: hidden;
+       background-color: black;
+   }
+
+
+
+   .topnav a {
+       float: left;
+       display: block;
+       color: lightgray;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+   }
+h1 {
+     color: lightgray;
+     text-shadow: 2px 2px black;
+     margin: 1%;
+ }
+
+ p {
+     width: 20%;
+     background-color: lightgray;
+     word-wrap: break-word;
+     padding: 1%;
+     border: 3px solid black;margin: 1%;
+ }
+
+ ul {
+     font-size: 2em; text-shadow: 2px 2px black;
+ }
+
+ ul a {
+     color: lightgray;
+ }
+
+ ul a:hover {
+     color: mediumvioletred;
+ }
+
+  footer {
+       clear: both;
+       font-size: 0.9em;
+       text-align-last: center;
+       color: lightgray;
+       text-shadow: 1px 1px solid black;
+   }
+
+   .clearfix {
+       overflow: auto;
+   }
+
+   /**mus over linket**/
+
+   .topnav a:hover {
+       color: mediumvioletred;
+   }
+
+   /**Justere alle "links" i dette tilfælde ingen undertegn og ændret farve i nav **/
+
+   a:link {
+       text-decoration: none;
+       color: lightgrey;
+
+   }
+  
