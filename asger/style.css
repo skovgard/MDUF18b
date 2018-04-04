@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 6px;
+}
+
+nav li {
+    color: #000000;
+
+    display: inline;
+    padding: 20px;
+}
+
+#wrapper {
+    background-color: #C3c3c3;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+section {
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color: #000000;
+    color: antiquewhite;
+}
+
+main {
+    background-color: #FFFFFF;
+}
+
+header,
+footer,
+main {
+    padding: 2%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+a {
+    color: #000000;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: circle;
+    color: #000000;
+    padding: 12px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+#ulclass {
+    padding-left: 6%;
+}
+
+#text {
+    background-color: azure;
+    width: 48%;
+    float: left;
+    padding: 1%;
+}
+
+#facts {
+    background-color: #c3c3c3;
+    width: 48%;
+    float: right;
+    padding: 1%;
+    margin-bottom: 5px;
+}
+
+#image img {
+    width: 100%;
+}
+
+#image {
+    background-color: #000;
+    width: 48%;
+    padding: 1%;
+}
+
+#text {
+    background-color: white;
+    width: 48%;
+    padding: 1%;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#leftclass {
+    width: 48%;
+    float: left;
+    padding: 1px;
+}
+
+#rightclass {
+    width: 48%;
+    float: left;
+    padding: 1px;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    clear: both;
+}
