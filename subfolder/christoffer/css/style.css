@@ -1,0 +1,233 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+    background-color: rgb(220,220,220);
+    font-family: verdana, sans-serif;
+	font: 12px/18px Arial, sans-serif;
+}
+#wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+p {
+    padding-top: 1.5%;
+}
+h1 {
+    font-size: 1.5em;
+    font-family: 'Rammetto One', cursive;
+}
+h2 {
+    background-color: rgb(135,142,58);
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 1%;
+    clear: both;
+}
+h6 {
+    font-size: 0.8em;
+}
+.clearfix { 
+    /* overflow: auto;*/
+}
+#flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: auto;
+    padding: 2%;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+main {
+    padding: 2%;
+    float: left;
+}
+#main_nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(135,142,58);
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 00 8px 2px #000;
+}
+#main_nav:target {
+    display: block;
+}
+.access_aid {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 0;
+    padding-top: 40px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background: white 10px 10px / 20px 20px no-repeat;
+}
+#access_nav {
+    background-image: -webkit-repeating-linear-gradient(#ccc, #ccc 2px, #fff 2px, #fff 4px);
+    background-image: repeating-linear-gradient(#ccc, #ccc 2px, #fff 2px, #fff 4px);
+}
+#access_top {
+    background-image: linear-gradient(45deg, transparent 13px, #ccc 13px, #ccc 15px, transparent 0), linear-gradient(-45deg, white 13px, #ccc 15px, white 0);
+}
+ul {
+      list-style-type: none;
+}
+#main_nav li {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin: 2%;
+    padding-top: 4%
+}
+#main_nav li a {
+    text-align: center;
+}
+#navigation-desktop {
+    display: none;
+}
+#navigation-icon {
+    font-size: 1.4em;
+    padding: 2%;
+    text-align: right;
+    background-color: rgb(30,30,30);
+}
+#navigation-mobile {
+    text-align: center;
+    font-size: 1.2em;
+}
+#navigation-mobile {
+    display: block;
+}
+#navigation-mobile li {
+    padding: 0.8em;
+    border-bottom: 1px solid darkgray;
+}
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 1%;
+    border: 1px solid white;
+    padding-bottom: 0.5%;
+    color: white;
+    padding: 0.5%;
+}
+#text {
+    float: left;
+    color: black;
+    width: 46%;
+    padding: 1%;
+}
+.image {
+    width: 98%;
+    padding: 2%;
+    height: auto;
+    clear: both;
+}
+.image img {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 2%;
+    display: block;
+}
+#header_pic {
+    width: 98%;
+}
+#header_pic img {
+    width: 98%;
+    padding: 2%;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+    display: block;
+    text-align: center;
+	height: auto;
+    color: white;
+	background-color: rgb(135,142,58);
+    padding: 2%;
+    clear: both;
+}
+address a {
+    color: white;
+    text-decoration-color: white;
+}
+
+/* Media
+------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 675px) {
+    h2 {
+        text-align: center;
+    }
+    
+    .header { background-color: rgb(135,142,58);}
+    
+    .access_aid {
+        display: none;
+    }
+    
+    #navigation-desktop {
+    display: block;
+    text-align: center;}
+    
+    #navigation-desktop li {
+    display: inline;
+    font-size: 1.3em;
+    margin: 0.3em;
+    }
+    
+    #navigation-desktop li a {
+    padding: 0.3em;    
+    }
+
+    #navigation-icon {
+    display: none;}
+
+    #navigation-mobile {
+    display: none;}
+}
+@media only screen and (min-width: 676px) {
+    .access_aid {
+        display: none;  
+    }
+    article {
+        overflow: auto;
+    }
+    #navigation-desktop li {
+        font-size: 0.9em;
+        margin: 0.3em;
+    }
+@media only screen and (min-width: 768px) {
+    #navigation-desktop {
+    text-align: right;
+    }
+    
+    .access_aid {
+        display: none;
+    }
+    
+    #navigation-desktop li {
+    font-size: 1em;
+    margin: 0.3em;
+    }
+    
+    #navigation-desktop li a {
+    padding: 0;
+    }
+    #navigation-desktop li a:hover {
+        text-decoration: underline;}
+    }
+}
