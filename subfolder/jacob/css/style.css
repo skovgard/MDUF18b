@@ -1,0 +1,186 @@
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;}
+
+#wrapper {
+	min-width: 200px;
+	max-width: 1920px;
+	margin: 0 auto;}
+
+body {margin: 0;padding:0;height: 100%;width:100%; font-family: 'Limelight', cursive; font-size: 12px;background-color: black}
+
+    h1 {font-family: 'Limelight', cursive;font-size: 5vh;padding-bottom: 5px; color: black}
+    h2 {color: aquamarine;
+        font-size: 5vh;padding-top:5px;padding-bottom: 5px}
+    h6 {font-size: 1.2vh; color:white;padding-top:1.2%}
+    p{font-size:4vh; line-height: 150%; text-align:justify;margin:3%}
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {height: auto;
+        background-color:lightgray;}
+
+
+.dropbtn {
+    background-color: lightgray;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor:pointer;}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;    
+    }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: black;color:aquamarine}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {;color:aquamarine}
+#navigation-desktop{display: none}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+main    {background-color: lightgray}
+
+/* side 1 */
+#side1 {height: 100%;width:100%;background-color: #214664;display: table;background-size: cover;padding-top: 30vh;padding-bottom: 35vh;}
+
+#side1 .indre {display: table-cell;vertical-align: middle;width: 100%;max-width: none;}
+
+.indhold{max-width: 80%; margin:0 auto;text-align: center;}
+
+.indhold h1 {text-shadow: 0px 0px 300px #000;padding-bottom: 5%; color: aquamarine}
+
+#side1 h2 {padding-bottom: 15%; color: white; font-size:3vh}
+
+
+.knap {border-radius: 8px; font-family: 'Limelight', cursive;font-size: 120%;padding: 1% 2%; border: solid 2px; color: lightgray; text-transform: uppercase; text-decoration: none;}
+
+.knap:hover {color: aquamarine}
+
+/* side 1 */
+/* side 2 */ 
+
+#side2 {height: 100%;width:100%;background-color: lightgray;display: table;background-size: cover;padding-top: 5vh;padding-bottom: 10vh;}
+
+#side2 .indre {display: table-cell;width: 100%;max-width: none;text-align: left}
+
+#side2 h2 {;text-align: left; }
+
+#side2 p {margin:0; text-align:left; font-size:3vh}
+
+.linkitekst {color:black}
+.linkitekst:hover {color: aquamarine}
+
+/* side 2 */
+/* side 3 */
+#side3 {height: 100%;width:100%;background-color: #214664;display: table;background-size: cover;padding-top: 5vh;padding-bottom: 10vh;}
+
+#side3 .indre {display: table-cell;width: 100%;max-width: none;text-align: left}
+
+#side3 h2 {;padding-bottom:5vh}
+
+#side3 img {padding-top:2%;text-align: center;padding-left:10%;padding-right:10%}
+
+#vesterlaugetlink {color:white; text-decoration: none}
+#vesterlaugetlink:hover {color: aquamarine}
+
+iframe {max-width:80%;height:auto;padding-top:2%}
+
+.videocontainer {max-width:100%; margin: 0 auto; text-align: center;}
+
+/* side 3 */
+/* side 4 */
+#side4 h2 {color:aquamarine;text-align:left}
+#side4 p {margin:0; text-align:left; font-size:2.2vh; padding-bottom: 3vh}
+#side4 {height: 100%;width:100%;background-color: lightgray;display: table;background-size: cover;padding-top: 5vh;padding-bottom: 10vh;}
+#side4 .indre {display: table-cell;width: 100%;max-width: none;text-align: left}
+p#nu {padding-bottom:0%}
+/* side4 */
+/* side 5 */
+#side5 {height: 100%;width:100%;background-color: #214664;display: table;background-size: cover;padding-top: 5vh;padding-bottom: 10vh;}
+#instagramknap {color:#dd2a7b;margin-right:2vh }
+#linkedinknap {color:#0077B5;margin-right: 2vh}
+#emailknap {color:white;}
+#side5 h2{padding-bottom: 5vh}
+.tlfnr {text-align:center;color: white; padding-top: 2vh;text-decoration: none}
+.tlfnr:hover {color:aquamarine}
+/* side 5 */
+img {text-align: center; padding-left: 10%;padding-right: 10%;max-width: 80%}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+footer  {height: auto;
+        background-color: black; color: white;
+        padding:2%; /*clear: both*/}
+
+/* tablet */
+@media only screen and (min-width: 480px) {
+    h1 {font-size:10vh}
+    #landingpagepic {max-width:50%; float:left}
+    #vesterlauget {max-width:50%; float:left}
+    .videocontainer {max-width:50%; float:left}
+    #side4 p {font-size:2vh;}
+    #hvemerjeg {max-width: 45%; padding-right: 5%; float:left}
+    #erfaringer {max-width:45%; float:left}
+    #interesser {max-width:45%; float:left}
+    
+}
+    
+
+/* computer */
+@media only screen and (min-width: 1000px) { 
+    h1 {font-size:10vh}
+    h2 {color: aquamarine;
+        font-size: 7vh;padding-top:5px;padding-bottom: 5px}
+    h6 {font-size: 2vh;}
+    p{font-size:5vh}
+    .dropdown {display: none}    
+    #navigation-desktop {display:block;text-align: center;padding: 2% 2%}
+    #navigation-desktop li {display:block;text-align: center;display:inline;font-size:1.2em; margin:2em; }
+    #navigation-desktop li a {padding:0.5em; text-decoration: none; color:black;}
+    #navigation-desktop li a:hover {color:aquamarine;}
+    #side2 {padding-top: 5vh;padding-bottom:30vh}
+    #side2 h2 {font-size:7vh;text-align: left; color:aquamarine}
+    #side2 p {font-size:5vh}
+    #side1 h2 {font-size:6vh}
+    #side1 {padding-bottom:15vh}
+    #side3 {height: 100%;width:100%;background-color: #214664;display: table;background-size: cover;padding-top: 10vh;padding-bottom: 40vh;}
+    #side3 h2 {padding-bottom: 20vh}
+    #side4 h2 {font-size:5vh}
+    #landingpagepic {max-width:33%;; float:left}
+    #vesterlauget {max-width:33%;; float:left}
+    .videocontainer {max-width:33%;float:left}
+    #hvemerjeg {max-width: 30%; padding-right: 5%; float:left}
+    #erfaringer {max-width:30%; padding-right:5%; float:left}
+    #interesser {max-width:30%; float:left}} 
+
