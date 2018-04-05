@@ -1,0 +1,8 @@
+ø<html>
+<head>
+<title>This is my website</title>
+</head>
+<h1>Psyko header - Wowowowow.com</h1>
+<p>Text på text på text.</p>
+<a href="#"><scr=https://discussions.apple.com/people/Tristan%20Hubsch/avatar/60.png?a=1134></a>
+</html>
