@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+    <title>Assignment 4</title>
+    <meta name="keywords" content="opgave, assignment, 4" />
+    <meta name="description" content="" />
+    <link href="CSS/reset.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+
+        </header>
+        <!-- .header-->
+
+
+        <u>Working with images</u>
+        <p>1. Find one of the images within your Case 1.1 solution. Include it in your page and test Page Load Time using online presets “Slow 3G”. Write down the result in a p-element below the image in the following form: Image name, dimensions in pixels, size in kb, time in ms.:
+            <img src="Images/28580104_10215076856460997_1393591507_o2.jpg" width="100%"> Billedets originale størrelse er 2048 × 1482, og fyldte derfor hele siden. Jeg har derfor valgt at lave min width på 100%, så den tilpassr sig og derfor ikke bliver for voldsom.
+            <br><br>
+            <li>Image name: 28580104_10215076856460997_1393591507_o2.jpg</li>
+            <li>Dimension: 2048 × 1482</li>
+            <li>Size: 2.1 MB</li>
+            <li>Time: 1.2 min</li>
+            <br>2. Optimize the dimensions of the image: It must not be bigger than the maximum size you actually need in your Case 1.1 solution. Include the new image into your assignment and test the image performance. Write down the result following the form in question 1.
+            <br>
+            <img src="Images/2.jpg" width="50%"><br> Har valgt at give dette billede en width på 50%, for ikke at fylde hele siden.
+            <br><br>
+            <li>Image name: 2.jpg</li>
+            <li>Dimension: 2048 × 1482</li>
+            <li>Size: 1.3 MB</li>
+            <li>Time: 56.54 s</li>
+            <br>3. Optimize quality/compression level of the image. By “optimize” means getting the smallest file in kb as long as the visual quality stays on a level where it communicates in a good and acceptable manner in relation to your project’s overall goal. Use your eyes!<br>
+            <img src="Images/3.jpg">
+            <li>Image name: 3.jpg</li>
+            <li>Dimension: 567 × 410</li>
+            <li>Size: 62.5 KB</li>
+            <li>Time: 5.77 s</li>
+            <br>4. Finally, optimize by using the webp-format. Include the result, - both image and data into your assignment following the form in question 1.
+            <img src="Images/28580104_10215076856460997_1393591507_o2_result.webp" width="100%">
+            <li>Image name: 28580104_10215076856460997_1393591507_o2_result.webp</li>
+            <li>Dimension: 2048 × 1482</li>
+            <li>Size: 189 KB</li>
+            <li>Time: 14.56 s</li>
+            <br>5. Now sum-up your findings: How much did you improve your Page Load Time?
+            <li>Forbedret med 65,44 sekunder</li>
+<br><br>
+            <u>Working with fallback strategy for WebP-format in unsupported browsers</u><br>
+            1. Include a webp image to this assignment using the fallback strategy listed below. Test in
+Google Chrome and Internet Explorer. Write down your findings as part of your html-page.
+Hint: To be able to write html code in plain text you can use an online tool:<br>
+            <picture>
+ <source srcset="Images/28580104_10215076856460997_1393591507_o2_result.webp" type="image/webp">
+ <source srcset="Images/28580104_10215076856460997_1393591507_o2.jpg" type="image/jpeg">
+ <img src="Images/2.jpg" alt="Burger">
+</picture>
+        </p>
+        
+        
+
+
+        <main class="content">
+
+        </main>
+        <!-- .content -->
+
+
+
+
+        <footer class="footer">
+
+        </footer>
+        <!-- .footer -->
+
+    </div>
+    <!-- .wrapper -->
+
+</body>
+</html>
