@@ -1,0 +1,481 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+body {
+    font: 12px/18px Arial, sans-serif;
+}
+
+.wrapper {
+    ;
+    max-width: 1000px;
+    min-height: 100%;
+
+    margin: 0 auto;
+}
+
+hr {
+    padding: 1px;
+    background-color: dimgray;
+    margin-top: 1em
+}
+
+.midtstreg {
+    width: 20%;
+    background-color: grey;
+    margin-top: 25px
+}
+
+.mellemstreg {
+    width: 50%
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: dimgray;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    color: dimgray;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+#header {
+    width: 100%
+}
+
+a img {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 6px
+}
+
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    color: white
+}
+
+
+
+.dropdown {
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+    color: white
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.dropdown-content a:hover {
+    background-color: gainsboro
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+}
+
+
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+.content {}
+
+#flex {
+    display: flex;
+}
+
+.linkportfolie a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: dimgray;
+}
+
+.linkportfolie {
+    text-align: center;
+
+}
+
+.linkportfolie a {
+    border: 1px solid grey;
+    padding: 4px
+}
+
+.linkportfoliecv a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: dimgray;
+}
+
+.linkportfoliecv {
+    text-align: center;
+    padding: 10px
+}
+
+.linkportfoliecv a {
+    border: 1px solid grey;
+    padding: 4px
+}
+
+.semere a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: dimgray;
+    border: 2px solid;
+    padding: 7px
+}
+
+.semere {
+    text-align: center;
+}
+
+
+
+
+.praesentation {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px
+}
+
+#nyesteprojekt {
+    display: flex;
+    flex-direction: row;
+}
+
+.paris {
+    width: 50px;
+}
+
+.drink {
+    width: 50px
+}
+
+.mojito {
+    width: 50px
+}
+
+#cases {
+    margin: 30px;
+    text-align: center;
+    margin: auto
+}
+
+.koedstaden {
+    ;
+    width: 300px;
+    padding: 30px
+}
+
+.case2 {
+    ;
+    width: 300px;
+    padding: 30px
+}
+
+.case3 {
+
+    width: 300px;
+    padding: 30px
+}
+
+.case4 {
+    width: 300px;
+    padding: 30px
+}
+
+.CV {
+    text-align: center;
+    padding: 10px
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.footer {
+
+
+    height: 100%;
+    clear: both;
+    background-color: gainsboro;
+}
+
+.footermenu {
+    padding: 4px
+}
+
+.footermenu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 6px;
+}
+
+
+
+.some img {
+    padding: 3px;
+    text-align: right;
+    margin-bottom: 30px;
+    margin-right: 20px
+}
+
+/*.footermenu { padding: 4px }
+
+.some {text-align: center}
+.some img {padding: 3px;*/
+
+@media only screen and (min-width:100px) and (max-width: 699px) {
+
+    a img {
+        width: 60px;
+        margin-top: 10px;
+        margin-left: 6px;
+    }
+    .ommig {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .omos {
+        text-align: center;
+        flex-direction: column;
+    }
+    #nyesteprojekt {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: auto
+    }
+    #cases {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .koedstaden {
+        width: 80%;
+        padding: 4px;
+        margin: auto
+    }
+
+    .case2 {
+        width: 80%;
+        padding: 4px;
+        margin: auto
+    }
+
+    .case3 {
+        width: 80%;
+        padding: 4px;
+        margin: auto
+    }
+
+    .case4 {
+        width: 80%;
+        padding: 4px;
+        margin: auto
+    }
+    .paris {
+        width: 100%;
+        padding: 4px;
+        margin: auto
+    }
+
+    .drink {
+        width: 100%;
+        padding: 4px;
+        margin: auto
+    }
+
+    .mojito {
+        width: 100%;
+        padding: 4px;
+        margin: auto
+    }
+    .footermenu {
+        padding: 4px
+    }
+
+    .footermenu a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        padding: 6px;
+        text-align: center
+    }
+
+    .some {
+        text-align: center
+    }
+    .some img {
+        padding: 3px;
+        width: 20%;
+        margin: 0;
+
+
+
+
+        @media only screen and (min-width 700px) and (max-width: 899px) {
+
+            a img {
+                width: 100px;
+                margin-top: 10px;
+                margin-left: 6px
+            }
+            .ommig {
+                text-align: left;
+            }
+            .omos {
+                width: 48%;
+                text-align: left
+            }
+            #cases {
+                height: 300;
+                width: 100;
+                text-align: center;
+            }
+            #nyesteprojekt {
+                display: flex;
+                flex-direction: row;
+            }
+
+
+            .paris {
+                width: 33%;
+                float: left
+            }
+
+            .drink {
+                width: 33%;
+                float: left
+            }
+
+
+            .mojito {
+                width: 33%;
+                float: left;
+
+            }
+            .koedstaden {
+                width: 80%;
+                padding: 4px;
+                margin: auto;
+                float: left;
+            }
+            .koedtekst {
+                ;
+                font-size: 15px;
+                color: gainsboro;
+                font-family: 'Lato', sans-serif;
+            }
+
+            .case2 {
+                width: 80%;
+                padding: 4px;
+                margin: auto;
+                float: left
+            }
+
+            .case3 {
+                width: 80%;
+                padding: 4px;
+                margin: auto;
+                float: left
+            }
+
+            .case4 {
+                width: 80%;
+                padding: 4px;
+                margin: auto
+            }
+            .paris {
+                width: 100%;
+                padding: 4px;
+                margin: auto;
+                display: block;
+            }
+            .footermenu {
+                padding: 4px
+            }
+
+            .footermenu a {
+                color: white;
+                text-decoration: none;
+                display: block;
+                font-size: 20px;
+                padding: 6px;
+                text-align: left
+            }
+
+            .some {
+                text-align: right;
+            }
+            .some img {
+                padding: 3px;
+                text-align: right;
+
+            }
+        }

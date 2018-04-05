@@ -1,0 +1,229 @@
+body {
+    font-size: 12px;
+    font-family: arial;
+    background-image: url(wave.jpg);
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 none;
+}
+
+
+/*--------- header navbar start --------------*/
+.topnav {
+    overflow: auto;
+    background-color: darkred;
+    width: 100%;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+    font-size: 20px;
+    width: 50%;
+    border-bottom: 3px solid transparent;
+    font-family: 'Dosis', sans-serif;
+}
+.topnav a:hover {
+    border-bottom: 3px solid black;
+    color: black;
+}
+.topnav a.active {
+    color: black;
+}
+/*--------- header navbar end -----------------*/
+
+
+/*--------- header desktop start --------------*/
+.desktop-nav ul {
+    list-style-type: none;
+    width: 97%;
+    overflow: auto;
+    background-color: darkred;
+}
+.desktop-nav li {
+    float: left;
+    width: 25%;
+}
+.desktop-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    border-bottom: 3px solid transparent;
+}
+.desktop-nav li a:hover {
+    border-bottom: 3px solid black;
+    color: black;
+}
+.desktop-nav a.active{
+    color: black;
+}
+/*--------- header desktop end ----------------*/
+
+
+/*--------- footer navbar start ---------------*/
+.navbar {
+    overflow: auto;
+    background-color: darkred;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    text-decoration: none;
+    font-size: 30px;
+    width: 25%;
+}
+.navbar a:hover {
+    color: black;
+}
+.navbar a.active {
+    color: black;
+}
+/*----------footer navbar end -----------------*/
+
+
+/*----------main start ------------------------*/
+.content{
+    margin: 10%;
+}
+main h1{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3em;
+    padding: 2%;
+    margin-left: 8%;
+    margin-top: 0;
+}
+.language ul{
+    list-style-type: none;
+    width: 85%;
+}
+.language li{
+    float: right;
+    width: 7%;
+}
+.language li a{
+    color: white;
+    padding: 0;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+}
+.language li a:hover{
+    color: darkred;
+}
+.language a.active{
+    color: darkred;
+}
+
+/*----------main end --------------------------*/
+
+
+/*--------------------- footer start ----------*/
+
+#logo{
+    max-width: 100%;
+    margin: 0 auto;
+}
+#logo img{
+    position: fixed;
+    bottom:  0;
+    width: 4.5em;
+    padding: 1em;
+}
+#logo-mobile{
+    max-width: 100%;
+    margin: 0 auto;
+}
+#logo-mobile img{
+    position: fixed;
+    bottom:  10%;
+    width: 4.5em;
+    padding: 1em;
+}
+/*-------------- footer end -------------------*/
+
+@media only screen and (min-width: 320px){
+    .desktop-nav{
+        display: none;
+    }
+    .language{
+        display: none;
+    }
+    #logo{
+        display: none;
+    }
+    #logo-mobile{
+        display: block;
+    }
+    .topnav{
+        display: block;
+    }
+    .navbar{
+        display: block;
+    }
+    .content{
+        margin: 0;
+    }
+}
+@media only screen and (min-width: 480px){
+    .desktop-nav{
+        display: none;
+    }
+    .language{
+        display: none;
+    }
+    #logo{
+        display: none;
+    }
+    #logo-mobile{
+        display: block;
+    }
+    .topnav{
+        display: block;
+    }
+    .navbar{
+        display: block;
+    }
+    .content{
+        margin: 5%;
+    }
+}   
+@media only screen and (min-width: 1024px){
+    .desktop-nav{
+        display: block;
+    }
+    .language{
+        display: block;
+    }
+    #logo{
+        display: block;
+    }
+    #logo-mobile{
+        display: none;
+    }
+    .topnav{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .content{
+        margin: 10%;
+    }
+}
+
+

@@ -1,0 +1,474 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+    height: auto;
+    background: antiquewhite;
+    text-align: center;
+}
+
+#logo {
+    width: 30%;
+    margin-right: 35%;
+    margin-left: 35%
+}
+
+.pugs-world {
+    width: 140%;
+    float: left;
+}
+
+.pugs-world:hover {
+    transform: scale(1.1);
+}
+
+.pugs-world-wide {
+    display: none
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+.link {display: none}
+.link1 {display: none;}
+
+/* Dropdown container - needed to position the dropdown content */
+#container {
+    width: 100%;
+    position: relative;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 0 0 20px 5px;
+    box-shadow: 0 0 8px 2px #000;
+}
+
+#main_nav {
+    display: none;
+    position: absolute;
+    left: 0;
+    background: #e7cda8;
+    width: 100%;
+    padding-top: 5%;
+    border-radius: 0 0 5px 500px;
+    box-shadow: 0 0 50px 2px #000;
+}
+
+#main_nav:target {
+    display: block;
+}
+
+.access_aid {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 0;
+    padding-top: 20%;
+    overflow: hidden;
+    border: 2px solid #9f753b;
+    background: white 50% 50% / 50% 50% no-repeat;
+}
+
+#access_nav {
+    background-image: repeating-linear-gradient(#ccc, #ccc 2px, #fff 2px, #fff 4px);
+    background-image: repeating-linear-gradient(#ccc, #ccc 1px, #fff 2px, #fff 4px);
+}
+
+#access_top {
+    background-image: linear-gradient(45deg, transparent 13px, #ccc 13px, #ccc 15px, transparent 0), linear-gradient(-45deg, white 13px, #ccc 13px, #ccc 15px, white 0);
+    margin-top: -10px;
+}
+
+.mobil-nav {
+    font-size: 200%;
+    color: white;
+    text-decoration: none
+}
+
+/* nav
+-----------------------------------------------------------------------------*/
+
+#nav-wide {
+
+
+    color: white;
+    font-size: 16px;
+    text-align: right;
+    display: none;
+}
+
+#nav-wide a {
+    color: #ffffff;
+    text-decoration: inherit;
+}
+
+#nav-wide a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#nav-wide li {
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 10%;
+    margin-left: 10%
+}
+
+.nav-pug {
+    width: 35%;
+    height: auto;
+}
+
+.image #nav-wide {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: white;
+}
+
+/* nav end
+-----------------------------------------------------------------------------*/
+
+main {
+    padding: 1%
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between
+}
+
+#primary {
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center
+}
+
+.info {
+    width: 88%;
+    float: left;
+    text-align: center;
+    height: 25%;
+}
+
+#c3-box {
+    width: 100%
+}
+
+.c3-background {
+    width: 100%;
+}
+
+#c1 {
+    display: none;
+}
+
+#c2 {
+    display: none;
+}
+
+
+#c3 {
+    width: 35%;
+    height: auto;
+}
+
+.text3 {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    right: 25%;
+    transform: translate(0, -100%);
+    text-align: center;
+    color: black;
+    width: 49%;
+    background-color: darkseagreen;
+    padding: 2%;
+    border-radius: 15px
+}
+
+.image {
+    display: none;
+    width: 100%
+}
+
+.pug {
+    display: none;
+    width: 100%
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+}
+
+.pug {
+    display: none;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+    ;
+    background: white;
+    clear: both;
+    text-align: center;
+}
+
+.mailto {
+    width: 100%;
+    padding-top: 5%;
+    background-color: antiquewhite
+}
+
+.email-os {
+    width: 100%
+}
+
+.socialmedia {
+    width: 100%
+}
+
+.social {
+    width: 10%;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#socialmedia1 {
+    padding-top: 4%
+}
+
+#socialmedia2 {
+    padding-bottom: 1%
+}
+
+.email {
+    display: none;
+}
+
+/* other media
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 14cm) {
+
+    /* header
+---------------------------------------------------------------------------- */
+    header {
+        background-color: skyblue;
+    }
+    #logo {
+        width: 30%;
+        margin-right: 35%;
+        margin-left: 35%
+    }
+    .pugs-world {
+        display: none
+    }
+    .pugs-world-wide {
+        width: 100%;
+        display: flex;
+    }
+    .pugs-world-wide:hover {
+        transform: scale(1.1)
+    }
+
+    /* main
+---------------------------------------------------------------------------- */
+    .link1 {
+    display: inherit;
+    text-align: center;
+    font-size: 200%;
+    padding: 2%;
+    background-color: #a39685;
+    color: white;
+    width: 29.33%;
+    float: left;
+    border-radius: 15px;
+}
+
+.link {
+    display: inherit;
+    text-align: center;
+    font-size: 200%;
+    padding: 2%;
+    background-color: #cec0ad;
+    color: white;
+    width: 29.33%;
+    float: left;
+    border-radius: 5px
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+}
+    #container {
+        display: none
+    }
+    .c1-background {
+        display: none
+    }
+    .image {
+        overflow: auto;
+        width: 100%
+    }
+    .pug {
+        width: 100%
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .image {
+        position: relative;
+        display: inline-block;
+    }
+    .pug {
+        display: block;
+    }
+    #nav-wide {
+        display: inherit
+    }
+
+    .image #nav-wide {
+        position: absolute;
+        top: 30%;
+        left: 0;
+        right: 0;
+        transform: translate(-13%, -36%);
+        text-align: left;
+        color: white;
+    }
+    .nav-pug:hover {
+        transform: scale(1.2);
+    }
+
+    .c3-background {
+        display: none
+    }
+    #c3 {
+        display: none
+    }
+
+    #c1 {
+        display: inherit;
+        width: 46%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-image: url(../Images/Images-kompressed/pug-sitting-left_2.png);
+        background-size: 100%;
+        padding-top: 2%;
+    }
+    #c2 {
+        display: inherit;
+        width: 46%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-image: url(../Images/Images-kompressed/pug-sitting-right3_2.png);
+        background-size: 100%;
+        padding-top: 2%;
+    }
+    .text1 {
+        float: right;
+        width: 50%;
+        margin-bottom: 20%;
+        background-color: darkseagreen;
+        padding: 2%;
+        border-radius: 15px;
+    }
+    .text2 {
+        float: left;
+        width: 50%;
+        margin-bottom: 20%;
+        background-color: darkseagreen;
+        padding: 2%;
+        border-radius: 15px;
+    }
+    #flex {
+        display: flex;
+        justify-content: space-between
+    }
+    .mailto {
+        display: none
+    }
+    /* footer
+---------------------------------------------------------------------------- */
+    footer {}
+    #wide-footer {
+        height: 170px;
+        display: inherit
+    }
+    .socialmedia {
+        width: 40%;
+        margin: 1%;
+        background-color: white;
+    }
+    .social:hover {
+        transform: scale(1.2);
+    }
+    #socialmedia1 {
+        padding-top: 1%;
+        width: 50%;
+        margin: 1%;
+        float: left;
+        background-color: white;
+    }
+    #socialmedia2 {
+        padding-top: 1%;
+        width: 50%;
+        margin: 1%;
+        background-color: white;
+        padding-bottom: 0%;
+    }
+    .social {
+        width: 4em;
+        margin-right: 1%;
+        float: left;
+    }
+    .email {
+        display: inherit;
+        width: 25%;
+        margin-left: 75%
+    }
+    .email-pug {
+        width: 100%;
+    }
+    .email-pug:hover {
+        transform: scale(1.1);
+    }
+}

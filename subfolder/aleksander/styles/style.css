@@ -1,0 +1,209 @@
+body {
+  margin: 50px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 130px 130px 130px;
+  grid-gap: 10px;
+  
+}
+
+header h1 {
+background: rgba(206,206,206, 0.5);
+font-family: sans-serif, "Helvetica";
+text-transform: uppercase;
+width: 410px;
+margin: 0px;
+
+}
+header h3 {
+background: rgba(206,206,206, 0.5);
+font-family: sans-serif, "Helvetica";
+text-transform: lowercase;
+font-weight: normal;
+font-style: italic;
+width: 410px;
+margin: 0px;
+
+}
+.wrapper li {  
+list-style: none;
+}
+
+.wrapper ul{  
+padding-left: 10px;
+}
+
+.wrapper h1{
+font-size: 25px;
+background-color: rgba(52,61,70, 1.0);
+color: rgba(255,255,255, 0.9);
+font-family: sans-serif, "Helvetica";
+text-transform: uppercase;  
+text-align: center;
+text-decoration: underline;
+margin: 0px;
+}
+
+
+.bord-a {
+    background-color: rgba(114,172,77,0.8);  
+}
+
+
+
+.bord-b {
+    background-color: rgba(70,116,193,0.8) ; 
+}
+
+.bord-c {
+    background-color: rgba(253,191,45,0.8); 
+}
+
+.bord-d {
+    background-color: rgba(235,125,60,0.8); 
+}
+
+.bord-e {
+    background-color: rgba(190,7,18,0.8); 
+}
+
+.bord-f {
+    background-color: rgba(206,206,206, 0.8)
+}
+
+
+header nav {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+    float: right;
+    background-color: beige;
+    
+}
+
+header li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+
+
+}
+.profil h2 {
+    display: block;
+    float: inherit;
+    font-size: 25px;
+    background-color: rgba(253, 191, 45, 0.8);
+    padding: 10px;
+    font-family: sans-serif,
+    "Helvetica";
+    text-transform: uppercase;
+    text-align: left;
+    
+    
+}
+.interesser {
+ border-style: groove; 
+ margin-bottom: 10px;
+}
+
+.udannelse {
+ border-style: groove; 
+}
+
+
+.udannelse h2 {
+ background-color: rgba(190,7,18,0.8);
+ text-align: center;
+ padding: 10px;
+ 
+}
+
+.interesser h2 {
+    text-align: center;
+    background-color: rgba(235,125,60,0.8);
+    padding: 10px;
+}
+
+main li {
+    list-style: none;
+    padding-left: 0px;
+}
+
+footer {
+    background-color: rgba(206,206,206, 0.5); 
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+    
+}
+
+#color h1 {
+  color:rgba(100, 50, 255, .8);
+  font-size: 150px;
+  text-align: center;
+}
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 1s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 1s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 1s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+#color{
+  background-image: url(https://www.imgonline.com.ua/examples/rainbow-background-1-big.jpg);
+}
+
+.dark{
+font-size: 150px;
+font-family: "century gothic","sans-serif";
+text-align: center;
+color: rgba(206,206,206, 0.2); 
+}
+
+#darkness{
+    background-image: url(https://img07.deviantart.net/fb55/i/2012/201/9/4/darkness_vs__light_by_infinitechoices-d57yycv.jpg);
+}
+
+.minimal {
+    font-size: 150px;
+    font-family: "helvetica", "sans-serif";
+    text-align: center;
+    }
