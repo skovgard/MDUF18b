@@ -1,0 +1,332 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+    background-color: white;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+body {
+    background-color: white;
+    font-family: verdana, sans-serif;
+    font-size: 12px;
+}
+
+header,
+footer,
+main {
+    padding: 2%;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-family: 'Rammetto One', cursive;
+}
+
+h2 {
+    background-color: aquamarine;
+    color: crimson;
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 0.8em;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+    height: auto;
+    background: white;
+}
+
+#header1 {height: auto;
+    background: white; padding-bottom: 0px; padding-top: 0px}
+
+
+#navigation-desktop {
+    display: none;
+}
+
+#navigation-icon {
+    font-size: 4em;
+    text-align: center;
+    background-color: white;
+    font-family: 'Rouge Script', cursive;
+    margin-top:15px;
+    margin-bottom: -5px
+
+
+}
+
+nav a {
+    text-decoration: none;
+    background-color: white;
+    padding: 4px;
+    color: black;
+}
+
+#navigation-mobile {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#navigation-mobile li {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Rouge Script', cursive;
+    font-size: 3em;
+    
+
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 1px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'arial';
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: lightgrey;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {
+    background-color: white; padding-top: 0px;
+}
+
+
+#mig {
+    
+    width: 70%;
+    padding: 1%;
+    display: block; margin-left: auto; margin-right: auto;
+    border-radius: 500px
+}
+
+#text {
+    background-color: green;
+    width: 98%;
+    padding: 1%;
+
+}
+
+#image img {
+    width: 100%;
+
+}
+
+footer {}
+
+.clearfix {
+    /* overflow: auto;*/
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mininfo {text-align:center; font-size: 10px; font-family: 'arial' cursive; border: 1px solid}
+
+#vaegt {width: 100px; padding-right: 10px; padding-bottom: 20px}
+
+#pc {width: 90px; padding-top: 10px}
+
+#ven {width: 90px; padding-left: 10px}
+
+#rahmani {width: 50%; height: 50%;
+    display: block; margin-left: auto; margin-right:auto; border-radius: 1000px; border: 5px solid; border-color: orangered;}
+
+#info {font-size: 50px; text-align: center; border: 1px solid; width: 99.5%; padding-top: 10px; margin-bottom: 1%; display: flex; padding-bottom:30px; font-family: 'Rouge Script', cursive;}
+
+#human {display: none}
+
+#tegning {width: 80%; height: 20%; padding-left: 10%; padding-top: 10%;}
+
+#web {width: 80%; height: 20%; padding-left: 10%; padding-top: 10%}
+
+#ps {width: 80%; height: 20%; padding-left: 10%; padding-top: 10%}
+
+#projekter {font-family: 'Rouge Script', cursive; font-size: 40px; text-align: center; padding-top: 5%; padding-bottom: 5%}
+
+.overskrifter p {font-family: 'Rouge Script', cursive; font-size: 30px; text-align: center; padding-top: 5%;}
+
+
+#billeder img {width: 80%; padding-left: 10%; padding-top: 2%;}
+
+#tegninger {text-align: center; font-family: 'Rouge Script', cursive; font-size: 30px; padding-bottom: 4%;}
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+    height: auto;
+    background: white;
+    clear: both;
+}
+
+@media only screen and (min-width: 459px) {
+    header {
+        background-color: white;
+            font-family: 'Rouge Script', cursive; font-size: 12px; padding-bottom: 20px;
+
+    }
+    #mig {
+        width: 50%;
+        display: block; margin-left: auto; margin-right:auto 
+
+    }
+    #mig {
+        overflow: auto;
+    }
+    #navigation-desktop {
+        display: block; text-align: center; padding-top: 2em; font-size: 1em; margin: -1em;
+    }
+    
+    #navigation-desktop li {
+        display: inline; font-size: 4em; margin: 0.3em;
+    }
+    
+    #navigation-desktop li a {
+        padding: 0.3em; 
+    }
+
+    #navigation-icon {
+        display: none;
+    }
+
+    #navigation-mobile {
+        display: none;
+    }
+    
+    #human {display: block; text-align: center; font-size: 70px; font-family: 'Rouge Script', cursive; padding-top: 10px;
+ }
+    
+     #rahmani {height: 20%; width: 60%;
+    display: block; margin-left: auto; margin-right:auto; border-radius: 1000px; border: 5px solid; border-color: darkgreen; float: right;}
+    
+    #info {font-size: 60px; text-align: center; border: 1px solid; width: 100%; padding-top: 10px; margin-bottom: 1%; display: flex; padding-bottom:30px; line-height: 35%}
+    
+    #mininfo {text-align:center; font-size: 13px; font-family: 'arial' cursive; border: 1px solid}
+    
+    #vaegt {width: 115px; padding-right: 50px; padding-bottom: 20px}
+
+#pc {width: 100px; padding-top: 10px}
+
+#ven {width: 100px; padding-left: 50px}
+    
+    #billeder {width: 100%;}
+    
+    .grup {width: 33%; float: left}
+    
+    #tegninger {text-align: center; font-family: 'Rouge Script', cursive; font-size: 50px; padding-bottom: 4%;}
+    
+    
+}
+
+
+
+@media only screen and (min-width: 768px) {
+   
+    #navigation-desktop {
+        text-align: center; padding-top: 2em 
+    }
+    
+    #navigation-desktop li {
+        font-size: 4.5em; margin: 0.3em; display: inline
+    }
+    
+    #navigation-desktop li a {
+        padding-top: 1px; background-color: white; 
+    }
+    
+    
+    #mig { width: 45%;
+        display: block; margin-left: auto; margin-right:auto }
+    
+     #human {display: block; text-align: center; font-size: 120px; font-family: 'Rouge Script', cursive; padding-top: 30px; }
+    
+    #rahmani {width: 35%; height: 35%;
+    display: block; margin-left: auto; margin-right: auto; border-radius: 1000px; border: 5px solid; border-color: skyblue; float: right;}
+    
+    #mininfo {text-align:center; font-size: 14px; font-family: 'arial' cursive; border: 1px solid}
+    
+    #info {font-size: 100px; text-align: center; border: 1px solid; width: 97.8%; padding-top: 10px; margin-bottom: 1%; display: flex; padding-bottom:30px; line-height: 27%; padding-left: 2%}
+    
+         
+         #vaegt {width: 150px; padding-right: 100px; padding-bottom: 20px}
+
+#pc {width: 140px; padding-top: 10px}
+
+#ven {width: 140px; padding-left: 100px}
+    
+#tegning {width: 20%; height: 20%; float: left; padding-top: -0%;}
+
+#web {width: 20%; height: 20%; padding-left: 10%; padding-top: -0%; float: left;}
+
+#ps {width: 20%; height: 20%; padding-left: 10%; padding-top: -0%; float: left;}
+
+#projekter {font-family: 'Rouge Script', cursive; font-size: 70px; text-align: center; padding-top: 5%; padding-bottom: 10%}
+
+.overskrifter p {display: none;}
+
+}
