@@ -1,0 +1,24 @@
+ /* For width smaller than 400px: */
+
+ body {
+     background-repeat: no-repeat;
+     background-image: url(images/helmutnewton.png);
+ }
+
+ /* For width 400px and larger: */
+
+ @media only screen and (min-width: 600px) {
+     body {
+         background-image: url(images/baggrund1.jpg);
+         background-repeat: repeat
+     }
+ }
+
+ img {
+     width: 50%;
+ }
+
+ <picture>
+<source srcset="img_smallflower.jpg" media="(max-width: 400px)"> <source srcset="img_flowers.jpg">
+<img src="img_flowers.jpg" alt="Flowers">
+</picture>
