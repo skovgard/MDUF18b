@@ -1,0 +1,311 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+}
+
+#wrapper {
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+    height: 100px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;}
+
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 5%;
+    float: right;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    right: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: whitesmoke;
+}
+
+.navigation-desktop {display: none;}
+
+
+#logo {
+    height: 4em;
+    float: left;
+    margin-left: 4%;
+    margin-top: 3%;
+    
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 3%
+    
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    padding: 3%
+}
+
+h2 {
+    Background-color: white;
+    color: black;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    padding-bottom: 2%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+
+h3 {font-size: 1.2em; font-weight: bold; font-family: 'Ubuntu', sans-serif; padding: 2%;}
+
+h6 {
+    font-size: 1.2em;
+    font-family: myriad pro;
+    text-align: center;
+    padding: 2%; 
+
+}
+
+#forside-billede {width: 100%;}
+
+#infographic-newyork {width: 100%;}
+
+#tuborg {width: 100%;}
+
+#newyork-drawing {width: 100%;}
+
+#newyork {
+    background-color: white;
+    width: 100%;
+    /*float: left;*/
+    padding-bottom: 10%;
+}
+
+#newyork2 {
+    background-color: white;
+    width: 100%;
+    /*float: left;*/
+    padding-bottom: 10%;
+}
+
+#montreal {
+    background-color: white;
+    width: 100%;
+    /*float: left;*/
+    padding-bottom: 10%;
+}
+
+#paris {
+    background-color: white;
+    width: 100%;
+    /*float: left;*/
+    padding-bottom: 10%;
+}
+
+#hongkong {
+    background-color: white;
+    width: 100%;
+    /*float: left;*/
+    padding-bottom: 10%;
+}
+
+#london {
+    background-color: white;
+    width: 100%;
+    /*float: left;*/
+    padding-bottom: 10%;
+}
+
+#tegninger {
+    background-color: white;
+    width: 100%;
+    /*float: left;*/
+    padding-bottom: 10%;
+}
+
+
+
+#newyork img {
+    width: 100%;
+}
+
+#newyork2 img {
+    width: 100%;
+}
+
+#montreal img {
+    width: 100%;
+}
+
+#paris img {
+    width: 100%;
+}
+
+#hongkong img {
+    width: 100%;
+}
+
+#london img {
+    width: 100%;
+}
+
+#tegninger img {
+    width: 100%;
+}
+
+#newyork-infographic {width: 100%;}
+
+.clearfix {
+    /*overflow: auto;*/
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-email {text-align: center; padding-top: 3%; font-size: 1.3em;}
+
+#contact-instagram {text-align: center; padding-top: 3%; font-size: 1.3em;}
+
+#contact-phone {text-align: center; padding-top: 3%; padding-bottom: 4%; font-size: 1.3em;}
+
+#contact {border: 1px solid black; margin: 0.3%; margin-top: 4%;}
+
+#info-boks {border: 1px solid black; margin: 0.3%; margin-top: 4%; padding: 3%;}
+
+.info {font-size: 15px; text-align: center; line-height: 2em; padding: 3%; }
+
+#phone {color: black; text-decoration: none;}
+#mail {color: black; text-decoration: none;}
+#instagram {color: black; text-decoration: none;}
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+    background-color: white;
+    font-family: myriad pro;
+    padding: 2%;
+}
+
+@media only screen and (min-width: 700px){
+    .dropdown {display: none;}
+    .navigation-desktop {display: block; font-size: 12px; text-align: right; float: right; width: 50%; margin-top: 3%; margin-right: 4%; padding: 1.5%;}
+    .navigation-desktop li {display: block; text-align: center; display: inline; font-size: 1.4em; margin: 1%;}
+    .navigation-desktop li a {padding: 1%; text-decoration: none; color: black;}
+    .navigation-desktop li a:hover {;color: lightgray;}}
+
+@media only screen and (min-width: 700px) {
+    header {
+        background-color: white;
+    }
+    
+    
+    #newyork {width: 100%;
+    float: left; display: flex;
+    justify-content: space-between;}
+    
+    .newyork-line1 {width: calc(50% - 2%);}
+    
+    #newyork2 {width: 100%;
+    float: left; display: flex;
+    justify-content: space-between;}
+    
+    .newyork-line2 {width: calc(50% - 2%);}
+    
+    #montreal {width: 100%;
+    float: left; display: flex;
+    justify-content: space-between;}
+    
+    .montreal-line1 {width: calc(50% - 2%);}
+    
+    #paris {width: 100%;
+    float: left; display: flex;
+    justify-content: space-between;}
+    
+    .paris-line1 {width: calc(50% - 2%);}
+    
+    #london {width: 100%;
+    float: left; display: flex;
+    justify-content: space-between;}
+    
+    .london-line1 {width: calc(50% - 2%);}
+    
+    #tegninger {width: 100%;
+    float: left; display: flex;
+    justify-content: space-between;}
+    
+    .tegninger-line1 {width: calc(50% - 2%);}
+    
+    article {
+        overflow: auto;
+    }
+}
+
+#mail-footer {width: 5%;}
+#facebook-footer {width: 5%; margin-left: 10%; margin-right: 10%;}
+#instagram-footer {width: 5%;}
+#contact-footer  {margin-left: 37.5%}
