@@ -1,0 +1,127 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+/*lys #acb362 mørk #878e3a*/
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+a:hover{filter: drop-shadow(0px 5px 5px #383535)}
+nav {text-align: center;}
+
+nav li {display: inline; padding: 2%; font-size: 200%;}
+nav a {text-decoration: none; color: white}
+
+body {
+    font-family: 'Abel', sans-serif;background-color: #f8f0de}
+
+header {background-color: #acb362;padding-top: 1%}
+#logo img {padding: 1%}
+#intro {font-size: 1.5em; background-color: #f8f0de}
+#munke img{width: 100%; background-color: #f3fce5}
+#munke {font-size: 1.5em; background-color: #f3fce5}
+#drenge img{width: 100%; background-color: #f8f0de}
+#drenge {font-size: 1.5em; background-color: #f8f0de}
+#ris img {width: 100%; background-color: #f3fce5}
+#ris {font-size: 1.5em; background-color: #f3fce5} 
+#market img {width: 100%; background-color: #f8f0de}
+#market {font-size: 1.5em; background-color:#f8f0de}
+#pige img {width: 100%; background-color: #f3fce5}
+#pige {font-size: 1.5em; background-color: #f3fce5}
+#tempel img {width: 100%; background-color: #f8f0de}
+#tempel {font-size: 1.5em; background-color: #f8f0de}
+#barn img {width: 100%; background-color: #f3fce5}
+#barn {font-size: 1.5em; background-color: #f3fce5}
+
+.wrapper {
+    min-width: 200px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+.header {
+    height: 150px; width: 100%;  
+    background:
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+footer {
+  height: auto;
+  background: #878e3a;
+  clear: both;
+}
+
+@media only screen and (min-width: 400px) {
+  header {
+      background-color: #acb362;}
+#logo img {padding: 1%}
+#intro {font-size: 1.5em;}
+#munke img{width: 100%;padding-bottom: 2%}
+#munke {font-size: 1.5em;}
+#drenge img{width: 60%;float: left;padding: 2%}
+#drenge {font-size: 1.5em;float: left;padding: 2%}
+#ris img {width: 60%; float: right; padding: 2%}
+#ris {font-size: 1.5em; float: right; padding: 2%} 
+#market img {width: 60%;float: left; padding: 2%}
+#market {font-size: 1.5em; float: left; padding: 2%}
+#pige img {width: 50%; float: right; padding: 2%}
+#pige {font-size: 1.5em;float: right; padding: 2%}
+#tempel img {width: 60%;float: left; padding: 2%}
+#tempel {font-size: 1.5em;float: left ;padding: 2% }
+#barn img {width: 100%; padding-bottom: 2%}
+#barn {font-size: 1.5em; padding: 2%}
+  
+  #text {
+    width: 48%;
+    float: left;
+  }
+  article {
+    overflow: auto;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+    body {background-color: #f8f0de}
+    header {
+      background-color: #acb362;}
+    #logo img {width: 250px}
+    
+#intro {font-size: 1em;}
+#munke img{width: 50%; float: left; padding: 1%;}
+#munke {font-size: 1em; float: left; padding: 1%}
+#drenge img{width: 40%;float: left;padding: 1%}
+#drenge {font-size: 1em;float: left;padding: 1%}
+#ris img {width: 60%; float: right; padding: 1%}
+#ris {font-size: 1em; float: right; padding: 1%} 
+#market img {width: 60%;float: left; padding: 1%}
+#market {font-size: 1em; float: left; padding: 1%}
+#pige img {width: 50%; float: right; padding: 1%}
+#pige {font-size: 1em;float: right; padding: 1%}
+#tempel img {width: 60%;float: left; padding: 1%}
+#tempel {font-size: 1em;float: left ;padding: 1% }
+#barn img {width: 60%; float: right;padding: 1%}
+#barn {font-size: 1em; float: right; padding: 1%}
+  
+  
+  #text {
+    width: 48%;
+    float: left;
+  }
+  article {
+    overflow: auto;
+  }
+
+}
