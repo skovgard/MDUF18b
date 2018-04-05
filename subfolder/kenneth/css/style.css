@@ -1,0 +1,460 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+body {
+    line-height: 1;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+    background-color: #ccc;
+}
+
+#wrapper {
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header,
+footer,
+main {
+    padding: 2%;
+}
+
+#billed-flex {
+    width: 100%;
+}
+
+.billed-flex {
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+    background-color: rgba(138, 217, 247, 0.21);
+    color: black;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.1em;
+    background-color: none;
+    color: red
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+    height: auto;
+    background-color: #878e3a;
+}
+
+
+nav {
+    background-image: url(../images/nav-header.webp);
+    background-size: cover;
+
+}
+
+/*nav li {
+  display: inline;
+  padding-right: 17px;
+}
+
+nav ul {
+  padding: 3px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}*/
+
+ul {
+    list-style-type: none;
+
+}
+
+.logo {
+    max-width: 10%;
+}
+
+#nav-desktop {
+    display: none;
+}
+
+#nav-icon {
+    font-size: 1, 4em;
+    padding: 2%;
+    text-align: right;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 4px;
+    color: black;
+}
+
+#nav-mobil {
+    text-align: center;
+    font-size: 1, 2em;
+}
+
+#nav-mobil li {
+    padding: 0, 8em;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {
+    background-color: azure;
+    background-size: cover;
+}
+
+#video {
+    background-color: #00ebff;
+    width: 100%;
+
+}
+
+#audio {
+    background-color: green;
+    width: 100%;
+
+}
+
+#flex img {
+    max-width: 32%;
+    float: left;
+}
+
+
+#stemning2 {
+    background-color: crimson;
+    width: 45%;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+
+#event {
+    background-color: none;
+    width: 96%;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+#tulips {
+    background-color: none;
+    width: 96%;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+#image img {
+    max-width: 100%;
+}
+
+#b1 {
+    display: block, center;
+    width: 100%;
+}
+
+#b2 {
+    display: none;
+}
+
+#b3 {
+    display: none;
+}
+
+#b4 {
+    display: none;
+}
+
+#text {
+    background-color: green;
+    width: 98%;
+    padding: 1%;
+}
+
+footer {}
+
+.clearfix {
+    /*overflow: auto;*/
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#flex2 {
+    display: block;
+    width: 100%;
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+    height: auto;
+    background: #878e3a;
+    clear: both;
+}
+
+
+
+
+@media only screen and (min-width: 400px) {
+    #flex2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        max-width: 40%;
+    }
+
+
+    #image img {
+        max-width: 33%;
+        float: left;
+        margin-right: 5px;
+    }
+
+    #flex img {
+        max-width: 31%;
+        float: left;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+
+    #event {
+        overflow: auto;
+    }
+    #image {
+        overflow: auto;
+        width: 48%;
+        padding: 1%
+    }
+    #stemning {
+        overflow: auto;
+        width: 48%;
+        padding: 1%
+    }
+
+
+    #nav-desktop {
+        display: block;
+        text-align: center;
+        ;
+
+    }
+    #nav-desktop li {
+        display: inline;
+        font-size: 1.3em;
+        margin: 0.4em;
+    }
+    #nav-desktop li a {
+        padding: 0.5em;
+    }
+    #nav-icon {
+        display: none;
+    }
+    #nav-mobil {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 650px) {
+    nav {
+        background-image: url(../images/nav2.webp);
+    }
+    .logo {
+        max-width: 70%;
+    }
+
+    #b1 {
+        display: none;
+    }
+
+    #b2 {
+        width: 32%;
+        float: left;
+        margin-right: 1%;
+        display: inherit;
+    }
+
+    #b3 {
+        width: 32%;
+        float: left;
+        margin-right: 1%;
+        display: inherit;
+    }
+    #b4 {
+        width: 32%;
+        float: left;
+        margin-right: 1%;
+        display: inherit;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between
+    }
+
+    #text {
+        width: 48%;
+        float: left;
+    }
+    #event {
+        float: left;
+    }
+    article {
+        overflow: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #nav-desktop {
+        text-align: right;
+
+    }
+}
+
+#nav-desktop li {
+    font-size: 1em;
+    margin: 0.3em;
+    display: inline;
+}
+
+#nav-desktop li a {
+    padding: 0.5em;
+}
+
+#nav-desktop li a:hover {
+    text-decoration: underline;
+}
+
+}
