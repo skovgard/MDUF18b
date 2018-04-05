@@ -1,0 +1,256 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+
+
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+
+#wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+body {
+    background-color: #ccc;
+    font-family: 'Rozha One', serif;
+    font-size: 14px;
+}
+
+header,
+footer,
+main {
+    padding: 2%;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    background-color: aquamarine;
+    color: crimson;
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 0.8em;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+    height: auto;
+    background: #E9003A;
+}
+
+.sj {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#nav-desktop {
+    display: none;
+}
+
+#nav-icon {
+    font-size: 1.4em;
+    padding: 2%;
+    text-align: right;
+    background-color: #E9003A;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #E9003A;
+    padding: 1%;
+    color: black;
+}
+
+#nav-mobile {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#nav-mobile li {
+    padding: 0.8em;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {
+    background-color: white;
+}
+
+#image {
+    background-color: white;
+    width: 98%;
+    padding: 1%;
+}
+
+
+#image img {
+    width: 100%;
+
+}
+
+#litteratur {
+    text-align: left;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+#text {
+    background-color: white;
+    width: 98%;
+    padding: 1%;
+    margin: left 2%;
+}
+
+#overskrift  {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    padding: 2px;
+
+}
+
+.box {
+    border: 1px solid black;
+}
+
+#firstwebpage {
+    text-align: center;
+    padding: 10%;
+}
+
+footer {}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-desktop a:hover {
+    color: chartreuse;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+    height: auto;
+    background: #E9003A;
+    clear: both;
+}
+
+
+@media only screen and (min-width: 400px) {
+    header {
+        background-color: #E9003A;
+    }
+
+    #image img {
+        width: 50%;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+    }
+    #image {
+        overflow: auto;
+    }
+
+
+    #nav-desktop {
+        display: block;
+        text-align: center;
+    }
+    #nav-desktop li {
+        display: block;
+        text-align: center;
+        display: inline;
+        font-size: 1.3em;
+        margin: 0.3em;
+    }
+    #nav-desktop li a {
+        padding: 0.2em;
+    }
+
+    #nav-icon {
+        display: none;
+    }
+    #nav-mobile {
+        display: none;
+    }
+
+
+
+    @media only screen and (min-width: 650px) {
+        header {
+            background-color: #E9003A;
+        }
+
+        #image {
+            width: 48%;
+            float: left;
+        }
+        #text {
+            width: 48%;
+            float: left;
+        }
+        article {
+            overflow: auto;
+        }
+
+    }
+    @media only screen and (min-width: 768px) {
+
+        #nav-desktop {
+            text-align: right;
+        }
+
+
+    }
+    #nav-desktop li {
+        text-align: center;
+        display: inline;
+        font-size: 1em;
+        margin: 0.3em;
+    }
+
+    #nav-desktop li a {
+        padding: 0.4em;
+        background-color: #E9003A;
+    }
+
+    #nav-desktop li a:hover {
+        text-decoration: underline
+    }
+}
