@@ -1,0 +1,23 @@
+@media screen and (min-width: 480px){
+    .tablet {
+        display: block;
+    }
+    .mobile, desktop {
+        display: none;
+
+}
+    
+    article {
+    width: 50%;
+        float: left;
+    }
+    
+    footer {
+        clear: both;
+    }
+}
+
+
+
+
+

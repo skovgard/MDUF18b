@@ -1,0 +1,43 @@
+    * { margin: 0; padding: 0;}
+    #wrapper { background-color: #fff; max-width: 1000px; margin: 0 auto; }
+    body { background-color: #ccc; font-family: verdana, sans-serif; font-size: 12px;}
+    header { background-color: yellow;}
+    footer { background-color: orange;}
+    main { background-color: hsla(198, 57%, 80%, 0.6);}
+    header, footer, main { padding: 2%;}
+    h1 { font-size: 1.5em;}
+    h2 {
+      background-color: aquamarine;
+      color: crimson;
+      font-size: 1.2em;
+    }
+    h6 { font-size: 0.8em;}
+
+    nav {
+      background-color: red;
+      text-align: right;
+    }
+
+    nav li {
+      display: inline;
+      padding-right: 17px;
+    }
+
+    nav ul {
+      padding: 3px;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+        nav a:hover {
+      text-decoration:underline;
+    }
+    ul {
+      list-style-type: none;
+    }
+    #image { background-color: blue; width: 48%; float: left; padding: 1%;}
+    #text { background-color: green; width: 48%; float: left; padding: 1%;}
+    footer{ clear: both;}
+    .clearfix { overflow: auto;}

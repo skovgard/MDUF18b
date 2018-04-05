@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /index.html
+Disallow: /images
+Disallow: /search
+Disallow: /profile.html
+Disallow: /CSS
+Disallow: /pugs-world
+Disallow: /Images-png
+Disallow: /Images
+Disallow: /Images-webp
+Disallow: /Images-webp-20
